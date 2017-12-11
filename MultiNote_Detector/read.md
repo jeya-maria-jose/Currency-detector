@@ -7,5 +7,6 @@ Mapped to output between 0.5 to 1 respectively
 Image format 529 x 225: , downloaded from google images 
 
 Tested with different currencies and non currencies ; works fine
+Test data can be any image with the same dimensions
 
 
