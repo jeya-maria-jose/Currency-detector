@@ -1,6 +1,7 @@
-Differences from previous model:
+Classifies only if it is 2000 ruppee or not:
 
-As the training images are less (currency note will not change in any manner unlike other objects), it is safe to assume that only for a higher accuracy , the image is a 2000 ruppee.
+
+As the training images are less, it is safe to assume that only for a higher accuracy , the image is a 2000 ruppee.
 
 So, in program :
 
