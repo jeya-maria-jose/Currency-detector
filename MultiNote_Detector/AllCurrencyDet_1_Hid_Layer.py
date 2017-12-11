@@ -100,8 +100,8 @@ print X
 n+=1
 print n
 #synapses
-syn0 = np.random.random((n,10)) *0.00001  # 3x4 matrix of weights ((2 inputs + 1 bias) x 4 nodes in the hidden layer)
-syn1 = np.random.random((10,1))    # 4x1 matrix of weights. (4 nodes x 1 output) - no bias term in the hidden layer.
+syn0 = np.random.random((n,10)) *0.00001 
+syn1 = np.random.random((10,1))    
 i=0
 print syn0
 for j in range(1000):  
@@ -115,7 +115,7 @@ for j in range(1000):
     #print l2
     # Back propagation of errors using the chain rule. 
     l2_error = y - l2
-    if(j % 10) == 0:   # Only print the error every 1000 steps, to save time and limit the amount of output. 
+    if(j % 10) == 0:   # Only print the error every 10 steps, to save time and limit the amount of output. 
         print("Error: " + str(np.mean(np.abs(l2_error))))
         print l2
         
