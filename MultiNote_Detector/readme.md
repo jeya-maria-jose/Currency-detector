@@ -10,3 +10,9 @@ Tested with different currencies and non currencies ; works fine;
 Test data can be any image with the same dimensions
 
 
+Deep Net :
+
+3 hidden layers : 10 neurons each
+
+Does not perform as that with 1 hidden layer ??????
+
